@@ -10,7 +10,7 @@ export function HeroSection() {
         <div className="absolute left-1/2 top-44 h-72 w-72 -translate-x-1/2 rounded-full bg-primary/10 blur-3xl" />
         <div className="absolute right-0 top-16 h-56 w-56 rounded-full bg-secondary/10 blur-3xl" />
       </div>
-      <div className="mx-auto flex max-w-[1440px] flex-col gap-16 lg:flex-row lg:items-center lg:justify-between">
+      <div className="mx-auto flex max-w-360 flex-col gap-16 lg:flex-row lg:items-center lg:justify-between">
         <ScrollReveal className="max-w-2xl space-y-8">
           <div className="inline-flex items-center gap-3 rounded-full border border-primary/20 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-primary shadow-[0_0_0_1px_rgba(176,198,255,0.12)] backdrop-blur-sm">
             Web Development & SEO for Brands
@@ -97,7 +97,7 @@ export function HeroSection() {
                     </div>
                   </div>
                   <div className="mt-4 h-2 overflow-hidden rounded-full bg-white/5">
-                    <div className="h-full w-[97%] rounded-full bg-gradient-to-r from-primary to-secondary animate-progress"></div>
+                    <div className="h-full w-[97%] rounded-full bg-linear-to-r from-primary to-secondary animate-progress"></div>
                   </div>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2">

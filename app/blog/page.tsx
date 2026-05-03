@@ -24,9 +24,9 @@ export default function BlogIndex() {
           {blogs.map((blog, index) => (
             <ScrollReveal key={blog.slug} delay={index * 100}>
               <Link href={`/blog/${blog.slug}`} className="group block">
-                <article className="relative h-full overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] transition-all duration-300 hover:-translate-y-2 hover:border-primary/50 hover:bg-white/[0.05]">
+                <article className="relative h-full overflow-hidden rounded-2xl border border-white/10 bg-white/2 transition-all duration-300 hover:-translate-y-2 hover:border-primary/50 hover:bg-white/5">
                   {/* Image Placeholder - Replace src with blog.image if you add it to your data */}
-                  <div className="aspect-[16/9] w-full overflow-hidden bg-white/5">
+                  <div className="aspect-video w-full overflow-hidden bg-white/5">
                     <img
                       src={`https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop`}
                       alt={blog.title}

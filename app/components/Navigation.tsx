@@ -13,7 +13,7 @@ export function Navigation() {
 
   return (
     <header className="pointer-events-none fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-surface/60 backdrop-blur-2xl px-6 py-4 sm:px-8 lg:px-12">
-      <div className="pointer-events-auto mx-auto flex max-w-[1440px] items-center justify-between gap-6">
+      <div className="pointer-events-auto mx-auto flex max-w-360 items-center justify-between gap-6">
         <a
           href="/"
           className="text-sm font-semibold uppercase tracking-[0.28em] text-primary"

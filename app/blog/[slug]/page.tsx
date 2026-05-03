@@ -209,7 +209,7 @@ export default async function BlogPost({
     <div className="min-h-screen bg-surface text-on-surface">
       <Navigation />
       <main className="relative overflow-hidden pt-36 pb-24 px-6 sm:px-8 lg:px-12">
-        <article className="mx-auto max-w-[800px]">
+        <article className="mx-auto max-w-200">
           <ScrollReveal>
             <Link
               href="/blog"

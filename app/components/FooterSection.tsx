@@ -3,8 +3,8 @@ import { ScrollReveal } from "./ScrollReveal";
 export function FooterSection() {
   return (
     <footer id="contact" className="px-3 pb-24 pt-20 sm:px-8 lg:px-12">
-      <div className="mx-auto max-w-[1440px] space-y-10">
-        <ScrollReveal className="glass-panel rounded-[32px] border border-white/10 bg-surface-container/80 py-8 px-5 shadow-[0_40px_120px_rgba(0,112,255,0.14)] sm:p-12">
+      <div className="mx-auto max-w-360 space-y-10">
+        <ScrollReveal className="glass-panel rounded-4xl border border-white/10 bg-surface-container/80 py-8 px-5 shadow-[0_40px_120px_rgba(0,112,255,0.14)] sm:p-12">
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div className="space-y-4">
               <p className="text-sm uppercase tracking-[0.28em] text-on-surface-variant">
@@ -19,7 +19,7 @@ export function FooterSection() {
                 and turn your visitors into loyal customers.
               </p>
             </div>
-            <div className="space-y-4 rounded-[24px] border border-white/5 bg-surface-container-high/80 py-6 px-3 md:px-6">
+            <div className="space-y-4 rounded-3xl border border-white/5 bg-surface-container-high/80 py-6 px-3 md:px-6">
               <div className="flex items-center justify-between gap-4">
                 <p className="text-sm uppercase tracking-[0.24em] text-on-surface-variant">
                   Book a Call

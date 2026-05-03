@@ -46,7 +46,7 @@ const workItems = [
 export function WorkSection() {
   return (
     <section id="work" className="px-6 pb-24 pt-20 sm:px-8 lg:px-12">
-      <div className="mx-auto max-w-[1440px] space-y-12">
+      <div className="mx-auto max-w-360 space-y-12">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <ScrollReveal className="max-w-3xl space-y-4">
             <p className="text-sm uppercase tracking-[0.28em] text-on-surface-variant">
@@ -94,12 +94,12 @@ export function WorkSection() {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="glass-panel group flex h-full flex-col overflow-hidden rounded-[32px] border border-white/10 transition duration-500 hover:-translate-y-2 hover:border-white/20 hover:shadow-[0_16px_40px_rgba(0,0,0,0.3)]"
+                className="glass-panel group flex h-full flex-col overflow-hidden rounded-4xl border border-white/10 transition duration-500 hover:-translate-y-2 hover:border-white/20 hover:shadow-[0_16px_40px_rgba(0,0,0,0.3)]"
               >
-                <div className="relative aspect-[16/10] w-full overflow-hidden bg-surface-container-high/50 border-b border-white/5">
+                <div className="relative aspect-16/10 w-full overflow-hidden bg-surface-container-high/50 border-b border-white/5">
                   {/* Background Gradient */}
                   <div
-                    className={`absolute inset-0 bg-gradient-to-br opacity-40 transition-transform duration-700 group-hover:scale-110 z-10 ${
+                    className={`absolute inset-0 bg-linear-to-br opacity-40 transition-transform duration-700 group-hover:scale-110 z-10 ${
                       item.accent === "primary"
                         ? "from-primary/50 via-transparent to-transparent"
                         : item.accent === "secondary"
@@ -126,7 +126,7 @@ export function WorkSection() {
                           className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                         />
                         {/* Overlay to keep the text/UI aesthetic if the image is missing */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent pointer-events-none"></div>
                       </div>
                     </div>
                   </div>
