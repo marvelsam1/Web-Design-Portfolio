@@ -4,13 +4,13 @@ const testimonials = [
   {
     quote:
       "Marvellous completely transformed our user flow. The new React Native frontend reduced our friction by 60%, and our users are loving the seamless experience.",
-    author: "Sarah Jenkins",
-    role: "Product Lead, Connectly",
+    author: "Ibitomiwa",
+    role: "Founder, Connectly",
   },
   {
     quote:
       "Working with Marvellous was a game-changer. Our B2B platform now screams 'premium' and we saw a 25% spike in lead inquiries within the first month of launch.",
-    author: "David Aderoju",
+    author: "Engineer Aderoju",
     role: "CEO, Aderoju Energy",
   },
   {

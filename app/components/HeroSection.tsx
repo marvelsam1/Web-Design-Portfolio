@@ -13,14 +13,14 @@ export function HeroSection() {
       <div className="mx-auto flex max-w-[1440px] flex-col gap-16 lg:flex-row lg:items-center lg:justify-between">
         <ScrollReveal className="max-w-2xl space-y-8">
           <div className="inline-flex items-center gap-3 rounded-full border border-primary/20 bg-white/5 px-4 py-2 text-xs uppercase tracking-[0.28em] text-primary shadow-[0_0_0_1px_rgba(176,198,255,0.12)] backdrop-blur-sm">
-            Full-Stack Web Engineering & UI/UX
+            Web Development & SEO for Brands
           </div>
           <div className="space-y-6">
             <p className="text-sm uppercase tracking-[0.28em] text-on-surface-variant">
               Strategic Web Development
             </p>
             <h1 className="max-w-3xl text-5xl font-black leading-[1.05] tracking-[-0.04em] text-white sm:text-6xl lg:text-7xl">
-              You focus on your business. I’ll make sure the world finds it
+              You focus on your business. I’ll make sure the world finds it!
             </h1>
             <p className="max-w-2xl text-base leading-8 text-on-surface-variant sm:text-lg">
               I build easy-to-use websites that turn just looking visitors into
@@ -104,7 +104,7 @@ export function HeroSection() {
                   {[
                     {
                       title: "Conversion",
-                      value: "19.4%",
+                      value: "89.4%",
                       accent: "secondary",
                     },
                     {
