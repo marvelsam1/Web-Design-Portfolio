@@ -8,7 +8,7 @@ const workItems = [
     tags: ["UI/UX", "React Native", "App"],
     accent: "primary",
     year: "2024",
-    image: "/images/clear-icon.png", // Add your image path here
+    image: "/Images/clear-icon.png", // Add your image path here
     link: "https://www.cleariconmedicdiagnostics.com.ng/", // Replace with the actual URL
   },
   {
@@ -18,7 +18,7 @@ const workItems = [
     tags: ["B2B", "Wordpress", "Lead Gen"],
     accent: "secondary",
     year: "2023",
-    image: "/images/aderoju.png", // Add your image path here
+    image: "/Images/aderoju.png", // Add your image path here
     link: "https://www.aderojuenergy.com/", // Replace with the actual URL
   },
   {
@@ -28,7 +28,7 @@ const workItems = [
     tags: ["Web App", "React", "Analytics"],
     accent: "tertiary",
     year: "2023",
-    image: "/images/connectly.png", // Add your image path here
+    image: "/Images/connectly.png", // Add your image path here
     link: "https://www.connectly.ng/", // Replace with the actual URL
   },
   {
@@ -38,7 +38,7 @@ const workItems = [
     tags: ["E-Commerce", "Shopify"],
     accent: "primary",
     year: "2024",
-    image: "/images/sleetshop.png", // Add your image path here
+    image: "/Images/sleetshop.png", // Add your image path here
     link: "https://sleet-shop.vercel.app/", // Replace with the actual URL
   },
 ];

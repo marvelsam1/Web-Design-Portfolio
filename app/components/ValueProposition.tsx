@@ -32,7 +32,7 @@ export function ValueProposition() {
                 'Quick Wins' to start capturing leads immediately.
               </p>
               <Link
-                href="#audit"
+                href="/#contact"
                 className="inline-flex justify-center items-center rounded-full bg-primary px-6 py-3 text-sm font-bold text-surface transition hover:bg-primary/90 mt-auto"
               >
                 Claim My Free Profit Audit
@@ -71,7 +71,7 @@ export function ValueProposition() {
                 we architect a path to your business goals
               </p>
               <Link
-                href="#strategy-call"
+                href="/#contact"
                 className="inline-flex justify-center items-center rounded-full border border-primary text-primary px-6 py-3 text-sm font-bold transition hover:bg-primary/10 mt-auto"
               >
                 Book My Strategy Session
