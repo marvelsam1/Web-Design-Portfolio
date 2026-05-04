@@ -36,7 +36,7 @@ const tools = [
 export function ToolsSection() {
   return (
     <section id="tools" className="px-6 pb-24 sm:px-8 lg:px-12">
-      <div className="mx-auto max-w-[1440px] space-y-12">
+      <div className="mx-auto max-w-360 space-y-12">
         <ScrollReveal className="max-w-3xl space-y-4">
           <p className="text-sm uppercase tracking-[0.28em] text-on-surface-variant">
             My Arsenal
@@ -53,7 +53,7 @@ export function ToolsSection() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {tools.map((group, index) => (
             <ScrollReveal key={group.category} delay={index * 150}>
-              <div className="glass-panel flex h-full flex-col rounded-[32px] border border-white/10 bg-surface-container/40 p-8 transition duration-300 hover:-translate-y-1 hover:border-white/20 sm:p-10">
+              <div className="glass-panel flex h-full flex-col rounded-4xl border border-white/10 bg-surface-container/40 p-8 transition duration-300 hover:-translate-y-1 hover:border-white/20 sm:p-10">
                 <h3 className="mb-8 text-xl font-bold text-white">
                   {group.category}
                 </h3>

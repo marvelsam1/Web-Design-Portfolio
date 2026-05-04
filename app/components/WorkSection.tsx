@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ScrollReveal } from "./ScrollReveal";
 
 const workItems = [
@@ -120,10 +121,11 @@ export function WorkSection() {
 
                       {/* Image Content */}
                       <div className="relative h-full w-full bg-surface-container">
-                        <img
+                        <Image
                           src={item.image}
                           alt={item.title}
-                          className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                          fill
+                          className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                         />
                         {/* Overlay to keep the text/UI aesthetic if the image is missing */}
                         <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent pointer-events-none"></div>

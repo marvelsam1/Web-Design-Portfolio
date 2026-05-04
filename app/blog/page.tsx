@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { blogs } from "../components/data"; // Ensure blogs is exported from your [slug] file
 import { Navigation } from "../components/Navigation";
 import { FooterSection } from "../components/FooterSection";
@@ -26,11 +27,13 @@ export default function BlogIndex() {
               <Link href={`/blog/${blog.slug}`} className="group block">
                 <article className="relative h-full overflow-hidden rounded-2xl border border-white/10 bg-white/2 transition-all duration-300 hover:-translate-y-2 hover:border-primary/50 hover:bg-white/5">
                   {/* Image Placeholder - Replace src with blog.image if you add it to your data */}
-                  <div className="aspect-video w-full overflow-hidden bg-white/5">
-                    <img
+                  <div className="relative aspect-video w-full overflow-hidden bg-white/5">
+                    <Image
                       src={`https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop`}
                       alt={blog.title}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
 
