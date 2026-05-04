@@ -65,7 +65,7 @@ export function ValueProposition() {
                 Direct Strategy Access
               </h3>
               <p className="text-on-surface-variant mb-8 grow">
-                ou get a partner, not just a vendor. We’ll jump on deep-dive
+                You get a partner, not just a vendor. We’ll jump on deep-dive
                 strategy calls to walk through the Custom Conversion Roadmap
                 I've built for your specific niche. We don't just build pages;
                 we architect a path to your business goals
